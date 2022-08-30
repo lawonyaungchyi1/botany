@@ -28,7 +28,11 @@ const MyPage = () => {
           <MessageBox>
             ""သားကြီး မင်းလည်းငါနဲ့အတူတူbotanyဌာနကိုသွားရမှာပါပဲ။""😂😂😂😂
           </MessageBox>
-          <img src={nyanlin} alt="Nyan Lin Image" style={{ width: "240px" }} />
+          <img
+            src={nyanlin}
+            alt="Nyan Lin Image"
+            style={{ width: "240px", marginLeft: "30px" }}
+          />
         </div>
       )}
     </>

@@ -15,7 +15,6 @@ export const Container = {
   position: "relative",
   margin: "auto",
   top: "20%",
-  left: "10px",
 };
 
 export const MessageBox = styled.div`

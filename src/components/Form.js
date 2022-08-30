@@ -88,21 +88,6 @@ const Form = () => {
           </Box>
         </div>
       ))}
-      <Box
-        style={{
-          width: "100%",
-          flexDirection: "column",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "4px",
-        }}
-      >
-        <Box style={{ padding: "14px" }}>ဆရာမကြီးပြောထားတဲ့အသံဖိုင်</Box>
-        <audio controls>
-          <source src={song} type="audio/ogg" />
-        </audio>
-      </Box>
     </Box>
   );
 };
