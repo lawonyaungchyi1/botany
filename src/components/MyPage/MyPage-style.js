@@ -18,7 +18,8 @@ export const Container = {
 };
 
 export const MessageBox = styled.div`
-  width: 150px;
+  width: 50%;
+  word-wrap: break-word;
   position: absolute;
   left: 0px;
   border: 3px solid #2ec4b6;

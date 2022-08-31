@@ -22,8 +22,11 @@ const Form = () => {
   const notify = () => {
     toast.success(
       <>
+        <div>အဖြေမှန်များ</div>
         {zoology[counter - 1].correctAnswers.map((i) => (
-          <div key={zoology[counter - 1].correctAnswers.indexOf(i)}>{i}</div>
+          <div key={zoology[counter - 1].correctAnswers.indexOf(i)}>
+            <div>{i}</div>
+          </div>
         ))}
       </>,
       {

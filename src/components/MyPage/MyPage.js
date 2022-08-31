@@ -26,7 +26,7 @@ const MyPage = () => {
             </Button>
           </div>
           <MessageBox>
-            ""သားကြီး မင်းလည်းငါနဲ့အတူတူbotanyဌာနကိုသွားရမှာပါပဲ။""😂😂😂😂
+            ""သားကြီး မင်းလည်းငါနဲ့အတူတူ botanyဌာနကိုသွားရမှာပါပဲ။""😂😂😂😂
           </MessageBox>
           <img
             src={nyanlin}
